@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="JS代码" />
+<meta name="description" content="箭头动画风车式过渡的满屏焦点图。" />
+<title>箭头动画风车式过渡的满屏焦点图</title>
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="css/lrtk.css" />
+<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+<!-- 代码 开始 -->
+<div class="container">
+    <!-- Top Navigation -->
+    <div id="boxgallery" class="boxgallery" data-effect="effect-1">
+        <div class="panel"><img src="images/1.jpg" alt="Image 1"/></div>
+        <div class="panel"><img src="images/2.jpg" alt="Image 2"/></div>
+        <div class="panel"><img src="images/3.jpg" alt="Image 3"/></div>
+        <div class="panel"><img src="images/4.jpg" alt="Image 4"/></div>
+    </div>
+</div><!-- /container -->
+<script src="js/classie.js"></script>
+<script src="js/boxesfx.js"></script>
+<script>
+new BoxesFx( document.getElementById( 'boxgallery' ) );
+</script>
+<!-- 代码 结束 -->
+</body>
+</html>
